@@ -14,6 +14,8 @@
 		4272455D2C1FE3600029C27F /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272455C2C1FE3600029C27F /* SampleModel.swift */; };
 		4272455F2C1FE3710029C27F /* SampleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4272455E2C1FE3710029C27F /* SampleComponent.swift */; };
 		427245612C1FE3780029C27F /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427245602C1FE3780029C27F /* SampleViewModel.swift */; };
+		4DF35A562C2083AA00C27AA3 /* MyguniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF35A552C2083AA00C27AA3 /* MyguniView.swift */; };
+		4DF35A5A2C20852F00C27AA3 /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF35A592C20852F00C27AA3 /* ColorSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		4272455C2C1FE3600029C27F /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
 		4272455E2C1FE3710029C27F /* SampleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleComponent.swift; sourceTree = "<group>"; };
 		427245602C1FE3780029C27F /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
+		4DF35A552C2083AA00C27AA3 /* MyguniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyguniView.swift; sourceTree = "<group>"; };
+		4DF35A592C20852F00C27AA3 /* ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				4272454A2C1FE2D90029C27F /* gunnihaeba_iOSApp.swift */,
+				4DF35A592C20852F00C27AA3 /* ColorSet.swift */,
 				4272455B2C1FE3530029C27F /* View */,
 				4272455A2C1FE34F0029C27F /* Model */,
 				427245592C1FE3440029C27F /* ViewModel */,
@@ -104,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				4272454C2C1FE2D90029C27F /* ContentView.swift */,
+				4DF35A552C2083AA00C27AA3 /* MyguniView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,10 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4272454D2C1FE2D90029C27F /* ContentView.swift in Sources */,
+				4DF35A5A2C20852F00C27AA3 /* ColorSet.swift in Sources */,
 				427245612C1FE3780029C27F /* SampleViewModel.swift in Sources */,
 				4272455F2C1FE3710029C27F /* SampleComponent.swift in Sources */,
 				4272455D2C1FE3600029C27F /* SampleModel.swift in Sources */,
 				4272454B2C1FE2D90029C27F /* gunnihaeba_iOSApp.swift in Sources */,
+				4DF35A562C2083AA00C27AA3 /* MyguniView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
