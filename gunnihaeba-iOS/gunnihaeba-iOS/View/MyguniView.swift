@@ -25,7 +25,7 @@ struct MyguniView: View {
                         Text("\(title)")
                             .font(.system(size: 30, weight: .regular))
                             .padding(.trailing,50)
-                        NavigationLink(destination: MyguniEditView()) {
+                        NavigationLink(destination: MyguniEditView(title: $title)) {
                             Rectangle()
                                 .frame(width:71,height:55)
                                 .foregroundColor(.black)
