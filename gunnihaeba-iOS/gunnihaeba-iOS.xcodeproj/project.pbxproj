@@ -16,6 +16,7 @@
 		427245612C1FE3780029C27F /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427245602C1FE3780029C27F /* SampleViewModel.swift */; };
 		4DF35A562C2083AA00C27AA3 /* MyguniView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF35A552C2083AA00C27AA3 /* MyguniView.swift */; };
 		4DF35A5A2C20852F00C27AA3 /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF35A592C20852F00C27AA3 /* ColorSet.swift */; };
+		4DF35A5C2C2086C700C27AA3 /* MyguniEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF35A5B2C2086C700C27AA3 /* MyguniEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		427245602C1FE3780029C27F /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
 		4DF35A552C2083AA00C27AA3 /* MyguniView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyguniView.swift; sourceTree = "<group>"; };
 		4DF35A592C20852F00C27AA3 /* ColorSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSet.swift; sourceTree = "<group>"; };
+		4DF35A5B2C2086C700C27AA3 /* MyguniEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyguniEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				4272454C2C1FE2D90029C27F /* ContentView.swift */,
 				4DF35A552C2083AA00C27AA3 /* MyguniView.swift */,
+				4DF35A5B2C2086C700C27AA3 /* MyguniEditView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4272454D2C1FE2D90029C27F /* ContentView.swift in Sources */,
+				4DF35A5C2C2086C700C27AA3 /* MyguniEditView.swift in Sources */,
 				4DF35A5A2C20852F00C27AA3 /* ColorSet.swift in Sources */,
 				427245612C1FE3780029C27F /* SampleViewModel.swift in Sources */,
 				4272455F2C1FE3710029C27F /* SampleComponent.swift in Sources */,
